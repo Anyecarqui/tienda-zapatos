@@ -1,0 +1,126 @@
+
+
+
+section{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+min-height: 100vh;
+background-position: center;
+background-size: cover;
+}
+
+.contenedor{
+    position: absolute;
+    padding: 60px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(5px);
+    border: 0.05 solid rgba(7, 7, 7, 0.219);
+    border-radius: 20px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1); 
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor h2{
+   position: relative;
+   width: 100%;
+   text-align: center;
+   color: rgb(53, 53, 53);
+   font-weight: bold;
+   font-size: 2.5em;
+   margin-bottom: 10px;
+    
+}
+
+.input-contenedor {
+position: relative;
+margin: 30px;
+width: 300px;
+border-bottom: 2px solid ;
+}
+
+.input-contenedor input{
+    position: relative;
+    width: 100%;
+    padding: 15px 20px;
+    outline: none;
+    font-size: 1.15em;
+    color: black;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 253);
+    border-color: black;
+    margin-bottom: 10px;
+    align-content: center;
+}
+
+.input-contenedor #btn{
+    position: relative;
+    width: 100%;
+    padding: 15px 20px;
+    margin: 50px;
+    outline: none;
+    font-size: 1.15em;
+    color: rgb(250, 249, 249);
+    border-radius: 5px;
+    background-color: rgb(48, 48, 47);
+    border-color: black;
+    margin-bottom: 10px;
+    align-content: center;
+
+}
+
+
+.input-contenedor #btn:hover{
+    background-color: rgb(207, 206, 207);
+    align-content: center;
+
+}
+
+.Grupo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Grupo a{
+    color: rgb(7, 7, 7);
+    font-weight: 400;
+    text-decoration-style:dashed;
+    transition: 4s;
+}
+
+.Grupo a:nth-child(3){
+    text-decoration:dashed
+}
+
+.Grupo a:nth-child(1):hover{
+    text-decoration:dashed   
+}
+
+.input-contenedor #btn{
+    position: relative;
+    width: 100%;
+    padding: 15px 20px;
+    margin: 50px;
+    outline: none;
+    font-size: 1.15em;
+    color: rgb(253, 252, 252);
+    border-radius: 5px;
+    background-color: rgb(48, 48, 47);
+    border-color: black;
+    margin-bottom: 10px;
+    align-content: center;
+
+}
+
+.input-contenedor #btn:hover{
+    background-color: rgb(207, 206, 207);
+    align-content: center;
+
+}

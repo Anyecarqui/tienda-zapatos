@@ -1,0 +1,133 @@
+
+
+
+*::after,
+*::before,
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    margin: 0 auto;
+    max-width: 1200px;
+    
+    color: black;
+  }
+
+  .icon-cart{
+    width: 40px;
+    height: 40px;
+  }
+  .icon-corazon{
+    width: 40px;
+    height: 40px;
+  }
+  .icon-home{
+    width: 40px;
+    height: 40px;
+  }
+  .icon-usuario{
+    width: 40px;
+    height: 40px;
+  }
+
+  .icon-alerta{
+    width: 40px;
+    height: 40px;
+    float: right;
+    
+  }
+
+  .icon-menu{
+    width: 40px;
+    height: 40px;
+  }
+ 
+  
+  #search{
+    display: flex;
+    padding: 10px 40%;
+    position: relative;
+    outline: none;
+   background-color:rgb(253, 253, 253);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.25;
+    transition: 0.4s;
+    margin: 20px;
+    text-decoration: double;
+    border-radius: 8px;
+    border-color: black;
+    border: 0.01;
+  }
+
+  .src{
+   max-width: 50px;
+
+  }
+
+  .img{
+    max-width: 50px;
+  }
+
+  header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 40px 0;
+  }
+
+    .carrito{
+    display: flex;
+    padding: 20px 50px;position: relative;
+    border: none;
+    outline: none;
+    background-color: rgb(48, 48, 47);
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.25;
+    transition: 0.4s;
+    margin: 20px;
+    text-decoration: double;
+    border-radius: 5px;
+    }
+    
+    .carrito:hover{
+      background-color: rgb(48, 48, 47);
+  
+  }
+  #displaytacon{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+  }
+.card{
+background-color: rgb(219, 239, 243);
+border-radius: 8px;
+margin: 20px;
+width: 300px;
+padding: 40px;
+text-align: center;
+  }
+.card img{
+  border: 8px;
+  width: 80px;
+ 
+}
+#divDetalle {
+  margin: 40px;
+  padding: 40px;
+  background-color: rgb(130, 211, 248);
+  border-radius: 8px;
+justify-content: center;
+align-items: center;
+}
+
+#imgTaco {
+width: 80%;
+}
+
